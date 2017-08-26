@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="aosp-s2" fetch="https://github.com/AOSP-O-s2/" revision="oreo" />
+
+  <project path="device/leeco/s2" name="android_device_leeco_s2" remote="aosp-s2" />
+  <project path="kernel/leeco/msm8976" name="android_kernel_leeco_msm8976" remote="aosp-s2" />
+  <project path="vendor/leeco" name="proprietary_vendor_leeco" remote="aosp-s2" />
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="lineage-15.0" />
+  <project path="hardware/sony/thermanager" name="LineageOS/android_hardware_sony_thermanager" remote="github" revision="lineage-15.0" />
+
+</manifest>
+

@@ -8,6 +8,7 @@
   <project path="vendor/leeco" name="proprietary_vendor_leeco" remote="aosp-s2" />
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="lineage-15.0" />
   <project path="hardware/sony/thermanager" name="LineageOS/android_hardware_sony_thermanager" remote="github" revision="lineage-15.0" />
+  <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" remote="aosp" />
 
 </manifest>
 
